@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game </title>
+</head>
+<body>
+    <div class="winningStats">
+        <h1 id="stats">Welcome to the dice game! </h1>
+    </div>
+
+    <div class="row">
+        <div class="player1">
+            <p>Player 1</p>
+            <img src="dice6.png" id="dice1">
+        </div>
+        <div class="player2">
+            <p>Player 2</p>
+            <img src="dice6.png" id="dice2">
+        </div>
+    </div>
+
+    <button id="play" onclick="play()">
+        <i class="fa-solid fa-dice"></i>
+        START
+    </button>
+
+    <div id="loader"></div>
+
+    <footer>
+        <span id="copy">&copy;</span> Copyright 2024 | Made with <span id="heart">&hearts;</span> by Deepjyoti Ray
+    </footer>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
